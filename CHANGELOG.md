@@ -20,7 +20,7 @@ Remove enormous example videos from the repository, use hashed URLs. For more in
 
 ## 0.3.1
 
-Change text style themes from body1 -> bodyMedium. Material updates landed in Flutter's stable channel.
+Change text style themes from body1 -> bodyText2. Material updates landed in Flutter's stable channel.
 
 ## 0.3.0
 
