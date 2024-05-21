@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'weekday_selector_theme.dart';
@@ -473,7 +472,7 @@ class WeekdayButton extends StatelessWidget {
           theme.buttonTheme.colorScheme!.onSurface.withOpacity(0.16);
       currentTextStyle = textStyle ??
           weekdayTheme?.textStyle ??
-          theme.textTheme.bodyText2!.copyWith(color: currentColor);
+          theme.textTheme.bodyMedium!.copyWith(color: currentColor);
       currentShape = shape;
     } else if (onPressed != null && selected == true) {
       currentColor = selectedColor ??
@@ -496,7 +495,7 @@ class WeekdayButton extends StatelessWidget {
       currentShape = selectedShape ?? weekdayTheme?.selectedShape;
       currentTextStyle = selectedTextStyle ??
           weekdayTheme?.selectedTextStyle ??
-          theme.textTheme.bodyText2!.copyWith(color: currentColor);
+          theme.textTheme.bodyMedium!.copyWith(color: currentColor);
     } else {
       currentDisabledElevation =
           disabledElevation ?? weekdayTheme?.disabledElevation ?? 0;
@@ -509,7 +508,7 @@ class WeekdayButton extends StatelessWidget {
       currentShape = disabledShape ?? weekdayTheme?.disabledShape;
       currentTextStyle = disabledTextStyle ??
           weekdayTheme?.disabledTextStyle ??
-          theme.textTheme.bodyText2!.copyWith(color: currentColor);
+          theme.textTheme.bodyMedium!.copyWith(color: currentColor);
     }
 
     return Expanded(

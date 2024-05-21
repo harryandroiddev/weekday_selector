@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/date_symbol_data_local.dart';
@@ -220,7 +218,7 @@ class ExampleTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.all(8.0),
-      child: Text(title, style: Theme.of(context).textTheme.headline6),
+      child: Text(title, style: Theme.of(context).textTheme.titleLarge),
     );
   }
 }
